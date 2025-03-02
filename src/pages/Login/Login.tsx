@@ -13,7 +13,17 @@ const Login: React.FC = () => {
     (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
       event.preventDefault();
       // TODO: send email id, password
-      login(email, password);
+      if (!email || !email.trim()) {
+        alert("Please enter a valid email.");
+        return;
+      }
+  
+      if (!password || password.length < 6) {
+        alert("Password must be at least 6 characters long.");
+        return;
+      }
+  
+      login(email.trim(), password);
     },
     [login,email,password]
   );

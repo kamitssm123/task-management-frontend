@@ -19,6 +19,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const login = useCallback(async (email: string, password: string) => {
     console.log("Hello Ji");
     const data = await loginApi({ email, password });
+    if(!data){
+      return
+    }
     storage.set(IS_AUTHENTICATED, true);
     storage.set(TOKEN, data.token);
     setIsAuthenticated(true);

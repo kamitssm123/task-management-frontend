@@ -104,7 +104,7 @@ export const deleteTask = async(ids: string[]) => {
 
 // Example: Logout user (clearing the token)
 export const logoutUser = () => {
-  localStorage.removeItem('token');
+  localStorage.removeItem('TOKEN');
 };
 
 export const updateTask = async (id: number, updatedTaskData: { 
