@@ -1,0 +1,13 @@
+:root {
+  --primary: rgb(92, 82, 221);
+  --background-primary: #ffffff;
+  --background-secondary: #f1f1f1;
+  --text-primary: #0a0a14;
+  --text-secondary: rgb(138, 142, 140);
+  --ui-01: rgb(162, 173, 184);
+  --ui-02: rgb(144, 157, 169);
+  --ui-03: rgb(123, 136, 150);
+  --ui-04: rgb(241, 244, 247);
+  --border-01: rgb(211, 211, 211);
+  --danger: #dc3545;
+}

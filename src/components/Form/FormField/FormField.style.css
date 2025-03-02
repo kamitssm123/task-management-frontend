@@ -1,0 +1,26 @@
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.field-label {
+  color: var(--text-primary);
+  font-size: 14px;
+  font-weight: 700;
+}
+.field-text {
+  border: 1px solid var(--border-01);
+  padding: 8px 10px;
+  align-self: stretch;
+}
+.field-toggle-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.field-toggle-property {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+}

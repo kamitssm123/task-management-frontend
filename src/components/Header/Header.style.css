@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-01);
+}
+.topbar {
+  background-color: var(--ui-01);
+  padding: 10px;
+  display: flex;
+  gap: 4px;
+}
+.dot {
+  background-color: var(--ui-02);
+  height: 10px;
+  width:10px;
+  border-radius: 50%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 36px;
+  min-height: 60px;
+}
+.routes {
+  display: flex;
+  gap: 24px;
+}
+.route {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(---text-primary);
+}
+.route.active {
+  color: var(--primary);
+}

@@ -1,0 +1,25 @@
+.base-button {
+  padding: 8px 16px;
+  outline: none;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid var(--primary);
+}
+.button {
+  background-color: var(--primary);
+  color: #fff;
+}
+.button-inverted {
+  color: var(--primary);
+  background-color: #fff;
+}
+.button-content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.button-disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

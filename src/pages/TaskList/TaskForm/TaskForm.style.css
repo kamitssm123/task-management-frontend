@@ -1,0 +1,15 @@
+.cta-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 28px;
+}
+.form-header {
+  margin-bottom: 10px !important;
+}
+.form-description {
+  font-size: 16px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,26 @@
+.table-container {
+  border: 1px solid var(--border-01);
+}
+.table-header-row {
+  background-color: var(--ui-03);
+}
+.table-header-cell {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px;
+}
+.table-data-cell {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px;
+  color: var(--text-primary);
+}
+table, th, td {
+  border: 1px solid var(--border-01);
+  border-collapse: collapse;
+}
+tr.table-data-row:nth-child(odd) {
+  background-color: var(--ui-04);
+}

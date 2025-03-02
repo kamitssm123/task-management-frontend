@@ -1,0 +1,17 @@
+.actions-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.sub-actions-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sub-actions-row {
+  display: flex;
+  gap: 12;
+}
